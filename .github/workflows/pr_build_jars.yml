@@ -1,12 +1,10 @@
 name: "Test compiling against Java 8, 11 and 16"
 
 on:
+  push:
+    branches: [ "master" ]
   pull_request:
-    branches:
-    - master
-    paths:
-    - "src/**"
-    - "build.gradle"
+    branches: [ "master" ]
 
 jobs:
   testBuilds:
