@@ -17,7 +17,7 @@ repositories {
 
     mavenCentral()
     mavenLocal()
-
+    maven("https://jitpack.io")
     maven("https://repo.codemc.org/repository/maven-public/")
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
 }
